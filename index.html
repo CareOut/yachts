@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yachts</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <a href="index.html" class="header__logo"
+              ><img class='logo__img' src="img/logo.png" alt=""
+            /></a>
+            <nav class="header-navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item"><a href="#">Главная</a></li>
+                <li class="navbar__item"><a href="#">Аренда яхт</a></li>
+                <li class="navbar__item"><a href="#">Маршруты</a></li>
+                <li class="navbar__item"><a href="#">доп. услуги</a></li>
+                <li class="navbar__item"><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="header-contacts">
+              <a href="tel=+7 (978) 050-43-16" class="contacts__phone">
+                <img
+                  class="phone__icon"
+                  src="img/icons/telephone.svg"
+                  alt="phone"
+                />
+                +7 (978) 050-43-16
+              </a>
+              
+              <div class="contacts-social">
+                <div class="social__link">
+                  <a href="#"><img src="img/icons/Viber.svg" alt="" /></a>
+                </div>
+                <div class="social__link">
+                  <a href="#"><img src="img/icons/whatsapp.svg" alt="" /></a>
+                </div>
+                <div class="social__link">
+                  <a href="#"><img src="img/icons/telegram.svg" alt="" /></a>
+                </div>
+                <div class="social__link">
+                  <a href="#"><img src="img/icons/VK.svg" alt="" /></a>
+                </div>
+              </div>
+             
+            </div>
+            <div class="menu-burger">
+                <div class="burger__menu"><img src="img/icons/menu.png" alt=""></div>
+                <div class="burger__burger"><img src="img/icons/burger.svg" alt=""></div>
+              </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="welcome">
+          <div class="container">
+            <div class="welcome-body">
+              <h1 class="welcome__title">
+                Аренда яхт <br />
+                в Крыму и Сочи
+              </h1>
+              <p class="welcome__text">
+                Организуем на борт водные активности, рыбалку, подготовим яхту
+                для мероприятия, кейтеринг. <br />
+                Мы сделаем Ваш отдых ярким и запоминающимся!
+              </p>
+              <a class="welcome__button yellow" href="#"
+                >Перейти в каталог
+                <img class="button__arrow" src="img/icons/arrow.svg" alt=""
+              /></a>
+              <a class="welcome__button" href="#">Быстрый подбор яхт</a>
+            </div>
+          </div>
+          <a class="link__up" href="#"><img src="img/link_up.png" alt="" /></a>
+          <div class="messengers">
+            <div class="messengers-icons">
+              <a href="#" class="messengers__icon"
+                ><img src="img/phone.png" alt=""
+              /></a>
+              <a href="#" class="messengers__icon"
+                ><img src="img/viber.png" alt=""
+              /></a>
+              <a href="#" class="messengers__icon"
+                ><img src="img/telegram.png" alt=""
+              /></a>
+              <a href="#" class="messengers__icon"
+                ><img src="img/message.png" alt=""
+              /></a>
+            </div>
+            <div class="messengers-message">
+              <a class="messengers__message" href="#">Оставить заявку</a>
+            </div>
+          </div>
+          <img class="img__cloud" src="img/cloud.png" alt="" />
+        </section>
+        <section class="filters">
+          <div class="container">
+            <div class="filters-body">
+              <h4 class="section__title">Выберите город</h4>
+              <div class="city-choose">
+                <a href="#" class="city__item"
+                  ><img class="city__img" src="img/gnezdo.png" alt=""
+                /></a>
+                <a href="#" class="city__item"
+                  ><img class="city__img" src="img/port.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="section-title">
+              <h4 class="section__title">Популярные яхты</h4>
+              <a class="show__catalog popular" href="#"
+                >Открыть каталог
+                <img class="arrow__right" src="img/arrow_right.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Princess 58 Diamond</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">16.3 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Люкс</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Princess VIP</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">25.9 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Люкс</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Альбатрос</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">3.6 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Комфорт</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Princess 58 Diamond</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">16.3 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Люкс</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Princess VIP</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">25.9 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Люкс</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/slider/princess3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Альбатрос</h6>
+                  <div class="slide-parameters">
+                    <img class="slider__img" src="img/slider/geo.svg" alt="" />
+                    <p class="slide__text">Севатополь</p>
+                    <img class="slider__img" src="img/slider/people.svg" alt="" />
+                    <p class="slide__text">10</p>
+                    <img class="slider__img" src="img/slider/dlina.svg" alt="" />
+                    <p class="slide__text">3.6 м</p>
+                    <img class="slider__img" src="img/slider/star.svg" alt="" />
+                    <p class="slide__text">Комфорт</p>
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">5 000 ₽/час</div>
+                    <div class="old__price">8 000 ₽/час</div>
+                  </div>
+                  <div class="slide-buttons">
+                    <a class="button__bron" href="#">Забронировать</a>
+                    <a class="button__more" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+        </section>
+        <section class="order">
+          <div class="container">
+            <div class="order-wrapper">
+              <h4 class="order__title">Как сделать заказ</h4>
+              <p class="order__text">
+                Для того чтобы организовать такую экскурсию, необходимо
+                выполнить несколько шагов:
+              </p>
+              <div class="order-items">
+                <div class="order__item">
+                  <div class="item__head">
+                    <img class="order__img" src="img/Ellipse3.png" alt="" />
+                    <img class="order__number" src="img/01.png" alt="" />
+                  </div>
+                  <h6 class="item__title">Выберите модель яхты</h6>
+                  <p class="item__text">
+                    В нашем каталоге вы сможете подобрать яхту на ваш вкус.
+                    Воспользуйтесь удобной системой фильтрации.
+                  </p>
+                </div>
+                <div class="order__item">
+                  <div class="item__head">
+                    <img class="order__img" src="img/data.png" alt="" />
+                    <img class="order__number" src="img/02.png" alt="" />
+                  </div>
+                  <h6 class="item__title">Выберите дату и время</h6>
+                  <p class="item__text">
+                    Запланируйте вашу поездкус максимальным комфортом.Вы можете
+                    арендовать яхту на дневную или ночную прогулку.
+                  </p>
+                </div>
+                <div class="order__item">
+                  <div class="item__head">
+                    <img class="order__img" src="img/map.png" alt="" />
+                    <img class="order__number" src="img/03.png" alt="" />
+                  </div>
+                  <h6 class="item__title">Выберите маршрут</h6>
+                  <p class="item__text">
+                    Ознакомьтесь с нашими захватывающими маршрутами,
+                    определитесь с портом отправления.
+                  </p>
+                </div>
+                <div class="order__item">
+                  <div class="item__head">
+                    <img class="order__img" src="img/ring.png" alt="" />
+                    <img class="order__number" src="img/04.png" alt="" />
+                  </div>
+                  <h6 class="item__title">Оставьте заявку</h6>
+                  <p class="item__text">
+                    Воспользуйте удобной формой заявки. Мы свяжемся с вами в
+                    удобном для вас мессенджере или по телефону.
+                  </p>
+                </div>
+              </div>
+              <div class="order-buttons">
+                <a class="welcome__button yellow" href="#"
+                  >Перейти в каталог
+                  <img class="button__arrow" src="img/icons/arrow.svg" alt=""
+                /></a>
+                <a class="welcome__button" href="#">Быстрый подбор яхт</a>
+              </div>
+            </div>
+          </div>
+          <img class="order__cloud" src="img/cloud2.png" alt="" />
+          <img class="order__seagul" src="img/seagul.png" alt="">
+          <img class="order__branch" src="img/branch.png" alt="">
+        </section>
+        <section class="dop-uslugi">
+          <div class="container">
+            <div class="dop-uslugi__wrapper">
+              <div class="section-title">
+                <h4 class="section__title">Дополнительные услуги</h4>
+                <a class="show__catalog" href="#"
+                  >Открыть каталог
+                  <img class="arrow__right" src="img/arrow_right.png" alt=""
+                /></a>
+              </div>
+              <div class="uslugi-cards">
+                <div class="uslugi__card">
+                    <div class="slide__top">
+                      <img
+                        class="slide__img"
+                        src="img/cook.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="slide__bottom">
+                      <h6 class="slide__title">Профессиональный повар</h6>
+                      <div class="slide-parameters">
+                        <p class="slide__text">Организуем питание для любого повода и праздника на палубе. Заранее согласуем индивидуальное меню и закупим продукты</p>                                              
+                      </div>
+                      <div class="slide-price">
+                        <div class="slide__price">10 000 ₽ + продукты</div>                       
+                      </div>
+                    </div>
+              </div>
+              <div class="uslugi__card">
+                <div class="slide__top">
+                  <img
+                    class="slide__img"
+                    src="img/hydrocicle.png"
+                    alt=""
+                  />
+                </div>
+                <div class="slide__bottom">
+                  <h6 class="slide__title">Гидроцикл</h6>
+                  <div class="slide-parameters">
+                    <p class="slide__text">Гидроциклы Bombardier GTX на 215 и 260 л.с к вашим услугам. Маски и ласты для каждого гостя бесплатно!</p>                                              
+                  </div>
+                  <div class="slide-price">
+                    <div class="slide__price">12 000 ₽/час</div>                       
+                  </div>
+                </div>
+          </div>
+          <div class="uslugi__card">
+            <div class="slide__top">
+              <img
+                class="slide__img"
+                src="img/fishing.png"
+                alt=""
+              />
+            </div>
+            <div class="slide__bottom">
+              <h6 class="slide__title">Морская рыбалка</h6>
+              <div class="slide-parameters">
+                <p class="slide__text">Рыбалку можно совместить с купанием в открытом море, а если повезет — понаблюдать за игрой дельфинов</p>                                              
+              </div>
+              <div class="slide-price">
+                <div class="slide__price">Цена зависит от аренды яхты</div>                       
+              </div>
+            </div>
+      </div>
+            </div>
+          </div>
+        </section>
+        <section class="impressions">
+            <div class="container">
+                <div class="impressions-wrapper">
+                    <h3 class="impressions__title">Незабываемые яркие впечатления</h3>
+<p class="impressions_text">Бодрящий морской воздух, мерный гул мотора, крики чаек над головой и – невероятные пейзажи, открывающиеся вокруг…Всё это вы можете ощутить, заказав морскую прогулку у нас!</p>
+<div class="impressions-cards">
+    <div class="impressions__card first">
+
+       
+    </div>
+    <div class="impressions__card second">
+    
+    </div>
+    <div class="impressions__card third">
+     
+    </div>
+    <div class="impressions__card fourth">
+     
+    </div>
+    <div class="impressions__card fifth">
+     
+    </div>
+</div>
+<div class="impressions-images">
+    <img src="img/impressions/racovina.png" alt="">
+    <img src="img/impressions/photo2.png" alt="">
+    <img src="img/impressions/dolphin.png" alt="">
+</div>
+                </div>
+            </div>
+            <img class="impressions__cloud" src="img/cloud2.png" alt="">
+            <img class="sea__star" src="img/impressions/sea_star.png" alt="">
+            <img class="sea__photo" src="img/impressions/photo.png" alt="">
+        </section>
+        <section class="router">
+            <div class="container">
+                <div class="router-wrapper">
+                    <div class="section-title">
+                        <h4 class="section__title">Популярные маршруты</h4>
+                        <a class="show__catalog" href="#"
+                          >Все маршруты
+                          <img class="arrow__right" src="img/arrow_right.png" alt=""
+                        /></a>
+                      </div>
+                     <div class="slider swiper">
+                        <div class="router-items swiper-wrapper">
+                            <div class="router__item swiper-slide">
+                                <div class="router__top"><img class='router__img' src="img/router/Maskgroup.png" alt=""></div>
+                                <div class="router__bottom">
+                                    <div class="bottom__title">Маршрут из Балаклавы №1</div>
+                                    <ol class="bottom__list">
+                                        <li>Бочка Смерти</li>
+                                        <li>Пляж Серебряный и Золотой</li>
+                                        <li>Пляж Инжир</li>
+                                        <li>Мыс Айя</li>
+                                        <li>Горный "Затерянный мир"</li>
+                                    </ol>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/clock.svg" alt=""> <p>В пути: <span class="bottom__blue">3-4 часа</span></p></div>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/mountains.svg" alt=""><p>Развлечения: <span class="bottom__blue">купание, стоянки в живописных местах</span></p></div>
+                                </div>
+                            </div>
+                            <div class="router__item swiper-slide">
+                                <div class="router__top"><img class='router__img' src="img/router/Maskgroup.png" alt=""></div>
+                                <div class="router__bottom">
+                                    <div class="bottom__title">Маршрут из Балаклавы №1</div>
+                                    <ol class="bottom__list">
+                                        <li>Бочка Смерти</li>
+                                        <li>Пляж Серебряный и Золотой</li>
+                                        <li>Пляж Инжир</li>
+                                        <li>Мыс Айя</li>
+                                        <li>Горный "Затерянный мир"</li>
+                                    </ol>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/clock.svg" alt=""> <p>В пути: <span class="bottom__blue">3-4 часа</span></p></div>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/mountains.svg" alt=""><p>Развлечения: <span class="bottom__blue">купание, стоянки в живописных местах</span></p></div>
+                                </div>
+                            </div>
+                            <div class="router__item swiper-slide">
+                                <div class="router__top"><img class='router__img' src="img/router/Maskgroup.png" alt=""></div>
+                                <div class="router__bottom">
+                                    <div class="bottom__title">Маршрут из Балаклавы №1</div>
+                                    <ol class="bottom__list">
+                                        <li>Бочка Смерти</li>
+                                        <li>Пляж Серебряный и Золотой</li>
+                                        <li>Пляж Инжир</li>
+                                        <li>Мыс Айя</li>
+                                        <li>Горный "Затерянный мир"</li>
+                                    </ol>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/clock.svg" alt=""> <p>В пути: <span class="bottom__blue">3-4 часа</span></p></div>
+                                    <div class="bottom__description"><img class="bottom__icon" src="img/router/mountains.svg" alt=""><p>Развлечения: <span class="bottom__blue">купание, стоянки в живописных местах</span></p></div>
+                                </div>
+                            </div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="answers">
+            <div class="container">
+                <div class="answers-wrapper">
+                    <div class="section-title">
+                        <h4 class="section__title">Ответы на часто задаваемые вопросы</h4>
+                        
+                      </div>
+                      <div class="answers-accordeon">
+                        <div class="accordeon-item">
+                            <div class="accordeon-title">
+                              <h5 class="acc__title">Что взять с собой на борт?                               
+                              </h5>
+                              <div class="acc__img">
+                                <img class="acc__img" src="img/icons/plus.svg" alt="" />
+                              </div>
+                            </div>
+                            <p class="acc__text">
+                                Если у Вас имеется морская болезнь, то укачает даже в очень спокойном море. Если в автомобиле или в самолете Вас не укачивает, на море может укачать. Поэтому, чтобы ваше мероприятие прошло идеально, мы обязательно рекомендуем нашим гостям за 1-2 часа перед отправлением в море выпить таблетки от укачивания.
+                            </p>
+                          </div>
+                          <div class="accordeon-item">
+                            <div class="accordeon-title">
+                              <h5 class="acc__title">
+                                В море может укачать?
+                              </h5>
+                              <div class="acc__img">
+                                <img class="acc__img" src="img/icons/plus.svg" alt="" />
+                              </div>
+                            </div>
+                            <p class="acc__text">
+                                Если у Вас имеется морская болезнь, то укачает даже в очень спокойном море. Если в автомобиле или в самолете Вас не укачивает, на море может укачать. Поэтому, чтобы ваше мероприятие прошло идеально, мы обязательно рекомендуем нашим гостям за 1-2 часа перед отправлением в море выпить таблетки от укачивания.
+                            </p>
+                          </div>
+                          <div class="accordeon-item">
+                            <div class="accordeon-title">
+                              <h5 class="acc__title">
+                                Можно снять яхту без капитана?
+                              </h5>
+                              <div class="acc__img">
+                                <img class="acc__img" src="img/icons/plus.svg" alt="" />
+                              </div>
+                            </div>
+                            <p class="acc__text">
+                                Взять яхту напрокат можно только с капитаном. Цены и условия проката указаны на странице каждой яхты и на странице условия. Минимальная длительность проката зависит от модели катера или яхты и составляет от 3 часов.
+                            </p>
+                          </div>
+                          <div class="accordeon-item">
+                            <div class="accordeon-title">
+                              <h5 class="acc__title">
+                                Какие маршруты доступны?
+                              </h5>
+                              <div class="acc__img">
+                                <img class="acc__img" src="img/icons/plus.svg" alt="" />
+                              </div>
+                            </div>
+                            <p class="acc__text">
+                                У нас доступно множество разнообразных программ и маршрутов на роскошных судах различных классов. 
+                            </p>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+              <a href="index.html" class="header__logo"
+                ><img src="img/logo.png" alt=""
+              /></a>
+              <div class="footer-info">
+                <div class="info__column">
+                    <p class="column__text">Крым, Балаклава, наб. Назукина, 1а</p>
+                    <p class="column__text">Крым, Ялта, ул. Рузвельта, 5</p>
+                    <p class="column__text">Сочи, ул. Войкова, 1</p>
+                </div>
+                <div class="info__column">
+                    <p class="column__text">LILIYA LUXURY 2022</p>
+                    <p class="column__text">© Все права защищены</p>
+                    <p class="column__text">Политика конфиденциальности</p>
+                </div>
+              </div>
+              <div class="header-contacts">
+                <a href="tel=+7 (978) 050-43-16" class="contacts__phone">
+                  <img
+                    class="phone__icon"
+                    src="img/icons/telephone.svg"
+                    alt="phone"
+                  />
+                  +7 (978) 050-43-16
+                </a>
+                <div class="contacts-social">
+                  <div class="social__link">
+                    <a href="#"><img src="img/icons/Viber.svg" alt="" /></a>
+                  </div>
+                  <div class="social__link">
+                    <a href="#"><img src="img/icons/whatsapp.svg" alt="" /></a>
+                  </div>
+                  <div class="social__link">
+                    <a href="#"><img src="img/icons/telegram.svg" alt="" /></a>
+                  </div>
+                  <div class="social__link">
+                    <a href="#"><img src="img/icons/VK.svg" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>
