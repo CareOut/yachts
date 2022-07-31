@@ -1001,12 +1001,23 @@ img {
   display: block;
 }
 
+.title__answer-mobile {
+  @media (max-width: 430px) {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+    color: #205694;
+  }
+}
+
 //................................................FOOTER........................................................
 
 .footer {
   min-height: 80px;
   background: #012146;
   padding: 40px 0px 60px 0px;
+  position: relative;
   &__body {
     display: flex;
     align-items: center;
@@ -1095,8 +1106,145 @@ img {
   }
 }
 
+.contacts-social-mobile {
+  margin: 0px 0px 0px 35px;
+  display: flex;
+  gap: 7px;
+  @media (max-width: 430px) {
+    display: flex;
+    gap: 7px;
+  }
+}
+
 .icon__mob {
   @media (max-width: 430px) {
     margin: 20px 0px 0px 0px;
   }
+}
+
+//............................................BURGER........................................................
+
+.menu-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #012146;
+  border-radius: 20px;
+  display: none;
+}
+
+.menu-burger-wrapper {
+  @media (max-width: 430px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+  }
+}
+
+.menu-burger-wrapper:not(:first-child) {
+  @media (max-width: 430px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.menu-burger__header {
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.menu-burger__close {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 29px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4.67143px;
+}
+
+.burger-header__logo {
+  width: 100%;
+  margin: 56px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger-header-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 52px 0px 32px 0px;
+}
+
+.burger-navbar__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+.burger-navbar__item a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.menu__btn {
+  width: 140px;
+  height: 38px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffc42c;
+  border-radius: 4.67143px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: center;
+  align-self: center;
+  color: #000000;
+}
+.burger-header-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 50px 0px;
+}
+.burger-contacts__phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+}
+
+.burger-contacts-social {
+  display: flex;
+  gap: 7px;
+  margin: 20px 0px 50px 0px;
+}
+
+.burger-info__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
