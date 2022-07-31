@@ -203,6 +203,9 @@ img {
   max-width: 340px;
   background: #012146;
   border-radius: 0px 0px 10px 0px;
+  @media (max-width: 430px) {
+    max-width: 430px;
+  }
 }
 
 .filters-content {
@@ -224,12 +227,29 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  @media (max-width: 430px) {
+    text-align: center;
+  }
+}
+
+.filters-filters {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 430px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .filters-buttons {
   display: flex;
   gap: 10px;
   margin: 40px 0px 40px 0px;
+  @media (max-width: 430px) {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 .filters__btn {
@@ -246,6 +266,9 @@ img {
   text-align: center;
   color: #ffffff;
   opacity: 0.4;
+  @media (max-width: 430px) {
+    width: 48%;
+  }
 }
 
 .filters__btn:active {
@@ -263,6 +286,16 @@ img {
   padding: 20px 0px 20px 0px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  @media (max-width: 430px) {
+    width: 45%;
+    margin-right: 15px;
+  }
+}
+
+.seagul__filters {
+  @media (max-width: 430px) {
+    display: none;
+  }
 }
 
 .block__title {
@@ -342,18 +375,29 @@ img {
   font-size: 32px;
   line-height: 200%;
   color: #090e94;
+  @media (max-width: 430px) {
+    text-align: center;
+  }
 }
 
 .catalog-items {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  @media (max-width: 430px) {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .slide-buttons {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 430px) {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .slide__text {
@@ -366,6 +410,7 @@ img {
   @media only screen and (max-width: 430px) {
     font-size: 11px;
     line-height: 100%;
+    margin: 0px 5px 0px 3px;
   }
 }
 
@@ -396,7 +441,7 @@ img {
   flex-direction: column;
   padding: 24px;
   @media only screen and (max-width: 430px) {
-    padding: 15px;
+    padding: 10px;
   }
 
   .slide-parameters {
@@ -406,6 +451,9 @@ img {
     align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
+    @media (max-width: 430px) {
+      gap: 5px;
+    }
   }
   .slide-price {
     display: flex;
@@ -441,7 +489,7 @@ img {
     text-align: center;
     color: #000000;
     @media only screen and (max-width: 430px) {
-      width: 140px;
+      width: 80%;
       height: 38px;
       font-weight: 500;
       font-size: 13px;
@@ -470,12 +518,6 @@ img {
   }
 }
 
-.slider__img {
-  @media only screen and (max-width: 430px) {
-    width: 30%;
-  }
-}
-
 .swiper-slide {
   display: flex;
   gap: 10px;
@@ -485,7 +527,7 @@ img {
   background: #ffffff;
   border-radius: 10px;
   @media (max-width: 430px) {
-    width: 320px;
+    width: 330px;
   }
   .slide__top {
     width: 100%;
@@ -500,6 +542,9 @@ img {
 .body-catalog {
   background: #e5e5e5;
   padding: 70px 20px 115px 30px;
+  @media (max-width: 430px) {
+    padding: 30px 5px 40px 5px;
+  }
 }
 
 //..........................................ORDER.............................................................
@@ -514,7 +559,8 @@ img {
     width: 100%;
     background: url(../img/order_mobile.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    transform: translateY(-25px);
   }
   .order__branch {
     position: absolute;
@@ -638,6 +684,9 @@ img {
 .order__cloud {
   width: 100%;
   transform: translateY(30px);
+  @media (max-width: 430px) {
+    transform: translateY(25px);
+  }
 }
 
 .welcome__button {
