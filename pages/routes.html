@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Routes</title>
+    <link rel="stylesheet" href="../css/routes.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <a href="../index.html" class="header__logo"
+            ><img class="logo__img" src="../img/logo.png" alt=""
+          /></a>
+          <nav class="header-navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item"><a href="../index.html">Главная</a></li>
+              <li class="navbar__item">
+                <a href="../pages/catalog.html">Аренда яхт</a>
+              </li>
+              <li class="navbar__item"><a href="#">Маршруты</a></li>
+              <li class="navbar__item"><a href="#">доп. услуги</a></li>
+              <li class="navbar__item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header-contacts">
+            <a href="tel=+7 (978) 050-43-16" class="contacts__phone">
+              <img
+                class="phone__icon"
+                src="../img/icons/telephone.svg"
+                alt="phone"
+              />
+              +7 (978) 050-43-16
+            </a>
+
+            <div class="contacts-social">
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/Viber.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/whatsapp.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/telegram.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/VK.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-burger">
+            <div class="burger__menu">
+              <img src="../img/icons/menu.png" alt="" />
+            </div>
+            <div class="burger__burger">
+              <img src="../img/icons/burger.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="filters">
+      <div class="filters-wrapper">
+        <div class="filters-body">
+          <div class="body-filters">
+            <div class="filters-content">
+              <div class="filters__title">Фильтры</div>
+              <div class="filters-buttons">
+                <div class="filters__btn">Крым</div>
+                <div class="filters__btn">Сочи</div>
+              </div>
+              <div class="filters-filters">
+                <div class="filters-block">
+                  <div class="block__title">Порт отправления</div>
+                  <div class="block-checkbox">
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="p_1"
+                    /><label for="p_1" class="select__input">Севастополь</label>
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="p_2"
+                    /><label for="p_2" class="select__input">Балаклава</label>
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="p_3"
+                    /><label for="p_3" class="select__input">Ялта</label>
+                  </div>
+                </div>
+                <div class="filters-block">
+                  <div class="block__title">Время в пути</div>
+                  <div class="block-checkbox">
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="v_1"
+                    /><label for="v_1" class="select__input">До 4 часов</label>
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="v_2"
+                    /><label for="v_2" class="select__input">До 6 часов</label>
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="v_3"
+                    /><label for="v_3" class="select__input">До 8 часов</label>
+                    <input
+                      class="custom__checkbox"
+                      type="checkbox"
+                      id="v_4"
+                    /><label for="v_4" class="select__input">До 10 часов</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="seagul__filters"
+              src="../img/filters/seaguls_filt.png"
+              alt=""
+            />
+          </div>
+          <div class="body-catalog">
+            <div class="catalog__title">Популярные маршруты</div>
+            <div class="catalog-items">
+              <div class="items-top">
+                <div class="router__item">
+                  <div class="router__left">
+                    <div class="left__title">Маршрут из Балаклавы №1</div>
+                    <ol class="left__list">
+                      <li>Бочка Смерти</li>
+                      <li>Пляж Серебряный и Золотой</li>
+                      <li>Пляж Инжир</li>
+                      <li>Мыс Айя</li>
+                      <li>Горный "Затерянный мир"</li>
+                    </ol>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/clock.svg"
+                        alt=""
+                      />
+                      <p>В пути: <span class="bottom__blue">3-4 часа</span></p>
+                    </div>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/mountains.svg"
+                        alt=""
+                      />
+                      <p>
+                        Развлечения:
+                        <span class="bottom__blue"
+                          >купание, стоянки в живописных местах</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="router__right">
+                    <img
+                      class="router__img"
+                      src="../img/routes/rout.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="router__item">
+                  <div class="router__left">
+                    <div class="left__title">Маршрут из Балаклавы №2</div>
+                    <ol class="left__list">
+                      <li>Мыс Айя</li>
+                      <li>Бухта Ласпи</li>
+                      <li>Кацивелли</li>
+                      <li>гора Кошка</li>
+                      <li>Семеиз</li>
+                      <li>Алупка</li>
+                      <li>Воронцовский дворец</li>
+                      <li>Ласточка</li>
+                      <li>Ялта</li>
+                    </ol>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/clock.svg"
+                        alt=""
+                      />
+                      <p>В пути: <span class="bottom__blue">4-6 часов</span></p>
+                    </div>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/mountains.svg"
+                        alt=""
+                      />
+                      <p>
+                        Развлечения:
+                        <span class="bottom__blue"
+                          >купание, стоянки в живописных местах</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="router__right">
+                    <img
+                      class="router__img"
+                      src="../img/routes/rout2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="router__item">
+                  <div class="router__left">
+                    <div class="left__title">Маршрут из Балаклавы №3</div>
+                    <ol class="left__list">
+                      <li>Васили пляж</li>
+                      <li>Мыс Фиолент</li>
+                      <li>грот Дианы</li>
+                    </ol>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/clock.svg"
+                        alt=""
+                      />
+                      <p>В пути: <span class="bottom__blue">3 часа</span></p>
+                    </div>
+                    <div class="bottom__description">
+                      <img
+                        class="bottom__icon"
+                        src="../img/router/mountains.svg"
+                        alt=""
+                      />
+                      <p>
+                        Развлечения:
+                        <span class="bottom__blue"
+                          >купание, стоянки в живописных местах</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="router__right">
+                    <img
+                      class="router__img"
+                      src="../img/routes/rout3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="items-bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="order">
+      <div class="container">
+        <div class="order-wrapper">
+          <h4 class="order__title">Как сделать заказ</h4>
+          <p class="order__text">
+            Для того чтобы организовать такую экскурсию, необходимо выполнить
+            несколько шагов:
+          </p>
+          <div class="order-items">
+            <div class="order__item">
+              <div class="item__head">
+                <img class="order__img" src="../img/Ellipse3.png" alt="" />
+                <img class="order__number" src="../img/01.png" alt="" />
+              </div>
+              <h6 class="item__title">Выберите модель яхты</h6>
+              <p class="item__text">
+                В нашем каталоге вы сможете подобрать яхту на ваш вкус.
+                Воспользуйтесь удобной системой фильтрации.
+              </p>
+            </div>
+            <div class="order__item">
+              <div class="item__head">
+                <img class="order__img" src="../img/data.png" alt="" />
+                <img class="order__number" src="../img/02.png" alt="" />
+              </div>
+              <h6 class="item__title">Выберите дату и время</h6>
+              <p class="item__text">
+                Запланируйте вашу поездкус максимальным комфортом.Вы можете
+                арендовать яхту на дневную или ночную прогулку.
+              </p>
+            </div>
+            <div class="order__item">
+              <div class="item__head">
+                <img class="order__img" src="../img/map.png" alt="" />
+                <img class="order__number" src="../img/03.png" alt="" />
+              </div>
+              <h6 class="item__title">Выберите маршрут</h6>
+              <p class="item__text">
+                Ознакомьтесь с нашими захватывающими маршрутами, определитесь с
+                портом отправления.
+              </p>
+            </div>
+            <div class="order__item">
+              <div class="item__head">
+                <img class="order__img" src="../img/ring.png" alt="" />
+                <img class="order__number" src="../img/04.png" alt="" />
+              </div>
+              <h6 class="item__title">Оставьте заявку</h6>
+              <p class="item__text">
+                Воспользуйте удобной формой заявки. Мы свяжемся с вами в удобном
+                для вас мессенджере или по телефону.
+              </p>
+            </div>
+          </div>
+          <div class="order-buttons">
+            <a class="welcome__button yellow" href="#"
+              >Перейти в каталог
+              <img class="button__arrow" src="../img/icons/arrow.svg" alt=""
+            /></a>
+            <a class="welcome__button" href="#">Быстрый подбор яхт</a>
+          </div>
+        </div>
+      </div>
+      <img class="order__cloud" src="../img/cloud2.png" alt="" />
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <a href="../index.html" class="header__logo"
+            ><img src="../img/logo.png" alt=""
+          /></a>
+          <div class="footer-info">
+            <div class="info__column">
+              <p class="column__text">Крым, Балаклава, наб. Назукина, 1а</p>
+              <p class="column__text">Крым, Ялта, ул. Рузвельта, 5</p>
+              <p class="column__text">Сочи, ул. Войкова, 1</p>
+            </div>
+            <div class="info__column">
+              <p class="column__text">LILIYA LUXURY 2022</p>
+              <p class="column__text">© Все права защищены</p>
+              <p class="column__text">Политика конфиденциальности</p>
+            </div>
+          </div>
+          <div class="header-contacts mob">
+            <a href="tel=+7 (978) 050-43-16" class="contacts__phone">
+              <img
+                class="phone__icon"
+                src="../img/icons/telephone.svg"
+                alt="phone"
+              />
+              +7 (978) 050-43-16
+            </a>
+            <div class="contacts-social-mobile icon__mob">
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/Viber.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/whatsapp.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/telegram.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/VK.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu-body">
+      <div class="container">
+        <div class="menu-burger-wrapper">
+          <div class="menu-burger__header">
+            <div class="menu-burger__close">
+              <div class="burger__menu">
+                <img src="../img/icons/menu.png" alt="" />
+              </div>
+              <div class="burger__burger">
+                <img src="../img/icons/cross.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <a href="../index.html" class="burger-header__logo"
+            ><img src="../img/menu-logo.png" alt=""
+          /></a>
+          <nav class="burger-header-navbar">
+            <ul class="burger-navbar__list">
+              <li class="burger-navbar__item">
+                <a href="../index.html">Главная</a>
+              </li>
+              <li class="burger-navbar__item">
+                <a href="../pages/catalog.html">Аренда яхт</a>
+              </li>
+              <li class="burger-navbar__item"><a href="#">Маршруты</a></li>
+              <li class="burger-navbar__item"><a href="#">доп. услуги</a></li>
+              <li class="burger-navbar__item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="menu__btn">Оставить заявку</a>
+          <div class="burger-header-contacts">
+            <a href="tel=+7 (978) 050-43-16" class="burger-contacts__phone">
+              <img
+                class="phone__icon"
+                src="../img/icons/telephone.svg"
+                alt="phone"
+              />
+              +7 (978) 050-43-16
+            </a>
+
+            <div class="burger-contacts-social">
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/Viber.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/whatsapp.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/telegram.svg" alt="" /></a>
+              </div>
+              <div class="social__link">
+                <a href="#"><img src="../img/icons/VK.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="burger-info__column">
+              <p class="column__text">Крым, Балаклава, наб. Назукина, 1а</p>
+              <p class="column__text">Крым, Ялта, ул. Рузвельта, 5</p>
+              <p class="column__text">Сочи, ул. Войкова, 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

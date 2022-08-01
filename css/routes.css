@@ -72,6 +72,10 @@ img {
   src: url(../css/fonts/signpainter_housescript.otf);
 }
 
+body {
+  font-family: "Graphik LCG";
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -486,6 +490,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 10px;
+  padding: 75px 50px 163px 50px;
 }
 
 @media (max-width: 430px) {
@@ -499,222 +504,6 @@ img {
   }
 }
 
-.slide-buttons {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media (max-width: 430px) {
-  .slide-buttons {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-.slide__text {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 100%;
-  color: #272a35;
-  opacity: 0.4;
-  margin: 0px 12px 0px 8px;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__text {
-    font-size: 11px;
-    line-height: 100%;
-    margin: 0px 5px 0px 3px;
-  }
-}
-
-.slide__title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: calc(24 / 20 * 100%);
-  color: #205694;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__title {
-    font-size: 16px;
-    line-height: 112%;
-  }
-}
-
-.slide__price {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: calc(24 / 20 * 100%);
-  color: #f8b405;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__price {
-    font-size: 16px;
-    line-height: 112%;
-  }
-}
-
-.slide__bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 24px;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__bottom {
-    padding: 10px;
-  }
-}
-
-.slide__bottom .slide-parameters {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-@media (max-width: 430px) {
-  .slide__bottom .slide-parameters {
-    gap: 5px;
-  }
-}
-
-.slide__bottom .slide-price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 40px 0px 23px 0px;
-}
-
-.slide__bottom .slide-price .old__price {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 100%;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #272a35;
-  opacity: 0.4;
-}
-
-.slide__bottom .button__bron {
-  width: 100%;
-  height: 48px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0))), #ffc42c;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #ffc42c;
-  border-radius: 6px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-  color: #000000;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__bottom .button__bron {
-    width: 80%;
-    height: 38px;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 100%;
-    text-align: center;
-    color: #000000;
-  }
-}
-
-.slide__bottom .button__more {
-  width: 180px;
-  height: 48px;
-  border: 2px solid #ffc42c;
-  border-radius: 6px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media only screen and (max-width: 430px) {
-  .slide__bottom .button__more {
-    width: 140px;
-    height: 38px;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 100%;
-    text-align: center;
-    color: #000000;
-  }
-}
-
-.swiper-slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 310px;
-  max-height: 500px;
-  background: #ffffff;
-  border-radius: 10px;
-}
-
-@media (max-width: 430px) {
-  .swiper-slide {
-    width: 330px;
-  }
-}
-
-.swiper-slide .slide__top {
-  width: 100%;
-  height: 50%;
-}
-
-.slide__img {
-  width: 100%;
-}
-
 .body-catalog {
   background: #e5e5e5;
   padding: 70px 20px 115px 30px;
@@ -724,6 +513,63 @@ img {
   .body-catalog {
     padding: 30px 5px 40px 5px;
   }
+}
+
+.router__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px 20px 30px;
+  gap: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.left__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #090e94;
+}
+
+.left__list {
+  margin: 31px 0px 39px 15px;
+}
+
+.left__list li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133%;
+  color: #a9aaae;
+}
+
+.bottom__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.bottom__description p {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.bottom__blue {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  color: #3e5e82;
+}
+
+.router__left {
+  padding: 10px 10px 10px 10px;
 }
 
 .order {
@@ -1326,4 +1172,4 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-/*# sourceMappingURL=catalog.css.map */
+/*# sourceMappingURL=routes.css.map */
