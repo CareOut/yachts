@@ -359,12 +359,20 @@ img {
   text-align: center;
   color: #ffffff;
   opacity: 0.4;
+  cursor: pointer;
 }
 
 @media (max-width: 430px) {
   .filters__btn {
     width: 48%;
   }
+}
+
+.filters__btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0))), #ffc42c;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #ffc42c;
+  color: #000000;
+  opacity: 1;
 }
 
 .filters__btn:active {
