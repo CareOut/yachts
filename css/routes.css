@@ -162,6 +162,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
 }
 
 .header__body .contacts__phone {
