@@ -21,3 +21,15 @@ btn.addEventListener("click", () => {
     btn.textContent = "Показать больше маршрутов";
   }
 });
+
+const modalZayavka = document.querySelector(".modal-zayavka");
+const zayavkaClose = document.querySelector(".zayavka");
+const menuZayavka = document.querySelector(".menu__btn");
+
+menuZayavka.addEventListener("click", () => {
+  modalZayavka.style.display = "flex";
+});
+
+zayavkaClose.addEventListener("click", () => {
+  modalZayavka.style.display = "none";
+});

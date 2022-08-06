@@ -204,3 +204,13 @@ buttonMessage.addEventListener("click", () => {
 zayavkaClose.addEventListener("click", () => {
   modalZayavka.style.display = "none";
 });
+
+const menuZayavka = document.querySelector(".menu__btn");
+
+menuZayavka.addEventListener("click", () => {
+  modalZayavka.style.display = "flex";
+});
+
+zayavkaClose.addEventListener("click", () => {
+  modalZayavka.style.display = "none";
+});

@@ -756,5 +756,127 @@
         </div>
       </div>
     </div>
+    <div class="modal-bron">
+      <div class="modal-bron-wrapper">
+        <div class="modal-body">
+          <form action="#">
+            <div class="modal-title">
+              <div class="modal__title">Бронирование яхты</div>
+              <div class="modal__cross">
+                <img class="cross__img" src="../img/icons/cross2.svg" alt="" />
+              </div>
+            </div>
+            <div class="select-block">
+              <div class="select-yachts">
+                <select name="yachts">
+                  <option value="Diamond">Princess 58 Diamond</option>
+                  <option value="VIP">Princess VIP</option>
+                  <option value="Альбатрос">Альбатрос</option>
+                </select>
+              </div>
+              <div class="select-time">
+                <select name="time">
+                  <option value="Diamond">До 4 часов</option>
+                  <option value="VIP">До 6 часов</option>
+                  <option value="Альбатрос">До 8 часов</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-block">
+              <input
+                class="modal__input"
+                type="text"
+                placeholder="Количество человек"
+              />
+              <input
+                class="modal__input"
+                type="date"
+                name=""
+                placeholder="Планируемая дата"
+              />
+            </div>
+            <div class="checkbox-block">
+              <input class="custom__checkbox" type="checkbox" id="l_1" /><label
+                for="l_1"
+                class="select__input"
+                >Услуги профессионального повара ( + 10 000 ₽ )</label
+              >
+              <input class="custom__checkbox" type="checkbox" id="l_2" /><label
+                for="l_2"
+                class="select__input"
+                >Гидроцикл ( + 12 000 ₽/час )
+              </label>
+            </div>
+            <div class="contacts-block">
+              <input class="modal__input" type="text" placeholder="Ваше имя" />
+              <input
+                class="modal__input"
+                type="tel"
+                placeholder="Ваш телефон"
+              />
+            </div>
+            <button type="submit" class="modal__btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal-zayavka">
+      <div class="modal-zayavka-wrapper">
+        <div class="modal-zayavka-body">
+          <form action="#">
+            <div class="modal-title">
+              <div class="modal__title">Оставить заявку</div>
+              <div class="modal__cross">
+                <img
+                  class="cross__img zayavka"
+                  src="../img/icons/cross2.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p class="modal__text">
+              Выберите удобный способ для связи, и мы свяжемся с Вами в течение
+              10 минут
+            </p>
+            <div class="modal-contacts">
+              <div class="modal-social">
+                <input
+                  class="custom__radio"
+                  type="radio"
+                  name="rb"
+                  id="rb1"
+                  checked
+                />
+                <label for="rb1">Whatsapp</label>
+
+                <input class="custom__radio" type="radio" name="rb" id="rb2" />
+                <label for="rb2">Telegram</label>
+                <input class="custom__radio" type="radio" name="rb" id="rb3" />
+                <label for="rb3">Viber</label>
+
+                <input class="custom__radio" type="radio" name="rb" id="rb4" />
+                <label for="rb4">По телефону</label>
+              </div>
+              <div class="modal-img">
+                <img class="seag__img" src="../img/seagul2.png" alt="" />
+              </div>
+            </div>
+            <div class="zayavka-contacts-block">
+              <input
+                class="zayavka-modal__input"
+                type="text"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="zayavka-modal__input"
+                type="tel"
+                placeholder="Ваш телефон"
+              />
+            </div>
+            <button type="submit" class="modal__btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

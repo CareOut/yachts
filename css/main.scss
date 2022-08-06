@@ -968,6 +968,9 @@ img {
   background: #ffffff;
   border-radius: 10px;
   padding: 30px;
+  @media (max-width: 430px) {
+    padding: 30px;
+  }
 }
 
 .accordeon-title {
@@ -978,10 +981,17 @@ img {
 }
 
 .acc__title {
+  width: 80%;
   font-weight: 600;
   font-size: 20px;
   line-height: 120%;
   color: #000000;
+  @media (max-width: 430px) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+  }
 }
 
 .acc__img {
@@ -1000,6 +1010,13 @@ img {
   opacity: 0.4;
   display: none;
   margin-top: 22px;
+  @media (max-width: 430px) {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 133%;
+    color: #272a35;
+    opacity: 0.4;
+  }
 }
 
 .show {
@@ -1142,6 +1159,7 @@ img {
 
 .menu-burger-wrapper {
   @media (max-width: 430px) {
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 0px 40px 0px 40px;
@@ -1163,6 +1181,9 @@ img {
 }
 
 .menu-burger__close {
+  position: absolute;
+  right: 0;
+  top: 5%;
   display: flex;
   gap: 5px;
   justify-content: center;
@@ -1445,6 +1466,10 @@ input {
 
 .custom__checkbox:checked + label:after {
   opacity: 1;
+}
+
+.cross__img {
+  cursor: pointer;
 }
 
 //.........................................MODAL-ZAYAVKA................................................
