@@ -109,8 +109,8 @@ let mySlider = new Swiper(".slider", {
     430: {
       slidesPerView: 1,
     },
-    768: {
-      slidesPerView: 2,
+    880: {
+      slidesPerView: 1,
     },
     1280: {
       slidesPerView: 3,
